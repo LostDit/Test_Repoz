@@ -1,31 +1,30 @@
 .header {
-    justify-content: space-around;
-    text-align: justify;
-    padding: 20px;
+    justify-content: flex-end;
+    text-align: center;
+    background: #f0f0f0;
 }
 ol li {
-    list-style-position: inside;
-    list-style-type: lower-alpha;
+    list-style-position: outside;
+    margin-left: 1.5em;
 }
 .exam {
-    font-family: 'Impact', 'Arial Black', sans-serif;
-    letter-spacing: 1px;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    font-size: 1.1em;
 }
 #table {
-    line-height: 2.5;
-    background: #f9f9f9;
+    line-height: 180%;
+    border-collapse: collapse;
 }
 footer {
-    padding: 15px 30px;
-    background: #27ae60;
-    color: #f1c40f;
+    padding: 0.5rem 2rem;
+    background: #34495e;
+    color: white;
 }
 a.foo:hover {
-    text-decoration-color: #c0392b;
-    color: #c0392b;
-    font-weight: bold;
+    text-decoration: underline wavy #3498db;
+    color: #3498db;
 }
 a.foo {
-    text-decoration-color: #7f8c8d;
-    color: #7f8c8d;
+    text-decoration: none;
+    color: #95a5a6;
 }
