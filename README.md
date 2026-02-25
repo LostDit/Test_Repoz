@@ -10,6 +10,7 @@ Student assignment to learn git commands
 git clone https://github.com/LostDit/GitCheatSheet_Antonov
 ```
 **Задание 2**. Перейдите в созданную (клонированную) папку.
+<img width="575" height="360" alt="image" src="https://github.com/user-attachments/assets/81f20a22-a32b-45bd-8fd6-2af5b0c176da" />
 
 **Задание 3**. Заполните второй столбец таблицы html-файла. После заполнения каждой ячейки индексируйте измененные файлы и выполняйте коммит.
 ```sh
