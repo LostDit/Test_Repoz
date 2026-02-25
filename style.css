@@ -1,30 +1,31 @@
 .header {
-    justify-content: center;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 20px;
 }
 ol li {
-    list-style-position: outside;
-    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: lower-alpha;
 }
 .exam {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    letter-spacing: 1px;
 }
 #table {
-    line-height: 1.8;
-    width: 100%;
+    line-height: 2.5;
+    background: #f9f9f9;
 }
 footer {
-    padding: 1em 2.5em;
-    background: #8e44ad;
-    color: #f39c12;
+    padding: 15px 30px;
+    background: #27ae60;
+    color: #f1c40f;
 }
 a.foo:hover {
-    text-decoration: overline #e67e22;
-    color: #e67e22;
+    text-decoration-color: #c0392b;
+    color: #c0392b;
+    font-weight: bold;
 }
 a.foo {
-    text-decoration: line-through #bdc3c7;
-    color: #bdc3c7;
+    text-decoration-color: #7f8c8d;
+    color: #7f8c8d;
 }
